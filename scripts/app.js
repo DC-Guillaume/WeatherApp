@@ -70,4 +70,17 @@ cityForm.addEventListener("submit", (e) => {
     .catch((err) => {
       console.log(err);
     });
+
+  // Local storage method
+  localStorage.setItem("city", city);
 });
+
+if (localStorage.getItem("city")) {
+  updateCity(localStorage.getItem("city"))
+    .then((data) => {
+      updateUi(data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+}
