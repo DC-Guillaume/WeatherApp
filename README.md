@@ -18,5 +18,8 @@ C'était l'occasion d'apprendre à **fetch** des données via une **api**.
 Ce projet à été réalisé à l'aide d'un tutoriel de [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
 
 ## Versions
-**v1.0.0** : Création de cette application météorologique grâce à javascript
+**v1.0.0** : Création de cette application météorologique grâce à javascript.
+
 **v1.0.1** : Ajout du local storage pour la ville sélectionnée.
+
+**v1.0.2** : Création d'une class Forecast.
