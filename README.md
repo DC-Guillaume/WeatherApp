@@ -19,3 +19,4 @@ Ce projet à été réalisé à l'aide d'un tutoriel de [The Net Ninja](https://
 
 ## Versions
 **v1.0.0** : Création de cette application météorologique grâce à javascript
+**v1.0.1** : Ajout du local storage pour la ville sélectionnée.
